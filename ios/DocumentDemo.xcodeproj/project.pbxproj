@@ -37,9 +37,9 @@
 		2DCD954D1E0B4F2C00145EB5 /* DocumentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DocumentDemoTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		94651BFA0FD246679EFABF9E /* libPDFGenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDDBD8CDEAE4B76BFA4C00E /* libPDFGenerator.a */; };
 		A1E0FE70A82744639E9B0F3F /* libRCTPdf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7592287E3745B1927100D4 /* libRCTPdf.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		B0EE8D2B8E8B4C61ACADF839 /* libPDFGenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CFB9F3CA254C8F9D386CE4 /* libPDFGenerator.a */; };
 		D5DD5EBFC1514EB48514A8E1 /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159B0EAAA639472986627364 /* libRNFetchBlob.a */; };
 /* End PBXBuildFile section */
 
@@ -331,9 +331,9 @@
 			remoteGlobalIDString = A15C300E1CD25C330074CB35;
 			remoteInfo = RNFetchBlob;
 		};
-		DB2CF25721DBD75B00003B6C /* PBXContainerItemProxy */ = {
+		DBE26D7221DC02E1004263F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 876C51D7E1944FE89B0EF55D /* RNPDFGenerator.xcodeproj */;
+			containerPortal = 2BA62684EA024B0EB86B9110 /* RNPDFGenerator.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = PDFGenerator;
@@ -362,16 +362,16 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		159B0EAAA639472986627364 /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
 		21A552295CF2465888D09381 /* RCTPdf.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTPdf.xcodeproj; path = "../node_modules/react-native-pdf/ios/RCTPdf.xcodeproj"; sourceTree = "<group>"; };
+		2BA62684EA024B0EB86B9110 /* RNPDFGenerator.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNPDFGenerator.xcodeproj; path = "../node_modules/rn-pdf-generator/ios/RNPDFGenerator.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* DocumentDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DocumentDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* DocumentDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DocumentDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDDBD8CDEAE4B76BFA4C00E /* libPDFGenerator.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libPDFGenerator.a; sourceTree = "<group>"; };
 		5CECC22DBF804E01ACD47A69 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFetchBlob.xcodeproj; path = "../node_modules/rn-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		5F7592287E3745B1927100D4 /* libRCTPdf.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTPdf.a; sourceTree = "<group>"; };
-		66CFB9F3CA254C8F9D386CE4 /* libPDFGenerator.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libPDFGenerator.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		876C51D7E1944FE89B0EF55D /* RNPDFGenerator.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNPDFGenerator.xcodeproj; path = "../node_modules/rn-pdf-generator/ios/RNPDFGenerator.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -402,7 +402,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				D5DD5EBFC1514EB48514A8E1 /* libRNFetchBlob.a in Frameworks */,
 				A1E0FE70A82744639E9B0F3F /* libRCTPdf.a in Frameworks */,
-				B0EE8D2B8E8B4C61ACADF839 /* libPDFGenerator.a in Frameworks */,
+				94651BFA0FD246679EFABF9E /* libPDFGenerator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,7 +591,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				5CECC22DBF804E01ACD47A69 /* RNFetchBlob.xcodeproj */,
 				21A552295CF2465888D09381 /* RCTPdf.xcodeproj */,
-				876C51D7E1944FE89B0EF55D /* RNPDFGenerator.xcodeproj */,
+				2BA62684EA024B0EB86B9110 /* RNPDFGenerator.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -645,7 +645,7 @@
 			children = (
 				159B0EAAA639472986627364 /* libRNFetchBlob.a */,
 				5F7592287E3745B1927100D4 /* libRCTPdf.a */,
-				66CFB9F3CA254C8F9D386CE4 /* libPDFGenerator.a */,
+				3DDDBD8CDEAE4B76BFA4C00E /* libPDFGenerator.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -666,10 +666,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB2CF25421DBD75B00003B6C /* Products */ = {
+		DBE26D6F21DC02E1004263F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB2CF25821DBD75B00003B6C /* libPDFGenerator.a */,
+				DBE26D7321DC02E1004263F2 /* libPDFGenerator.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -842,8 +842,8 @@
 					ProjectRef = 5CECC22DBF804E01ACD47A69 /* RNFetchBlob.xcodeproj */;
 				},
 				{
-					ProductGroup = DB2CF25421DBD75B00003B6C /* Products */;
-					ProjectRef = 876C51D7E1944FE89B0EF55D /* RNPDFGenerator.xcodeproj */;
+					ProductGroup = DBE26D6F21DC02E1004263F2 /* Products */;
+					ProjectRef = 2BA62684EA024B0EB86B9110 /* RNPDFGenerator.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1130,11 +1130,11 @@
 			remoteRef = DB2CF21D21DBD49700003B6C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DB2CF25821DBD75B00003B6C /* libPDFGenerator.a */ = {
+		DBE26D7321DC02E1004263F2 /* libPDFGenerator.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libPDFGenerator.a;
-			remoteRef = DB2CF25721DBD75B00003B6C /* PBXContainerItemProxy */;
+			remoteRef = DBE26D7221DC02E1004263F2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1287,8 +1287,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1316,8 +1314,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
@@ -1402,8 +1398,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1440,8 +1434,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1477,8 +1469,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1513,8 +1503,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
