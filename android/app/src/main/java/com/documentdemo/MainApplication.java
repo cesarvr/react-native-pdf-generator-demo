@@ -3,6 +3,7 @@ package com.documentdemo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.pdf.generator.PDFGeneratorPackage;
 import org.wonday.pdf.RCTPdfView;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new PDFGeneratorPackage(),
             new RCTPdfView(),
             new RNFetchBlobPackage()
       );

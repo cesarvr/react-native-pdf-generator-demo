@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':rn-pdf-generator')
     compile project(':react-native-pdf')
     compile project(':rn-fetch-blob')
     implementation fileTree(dir: "libs", include: ["*.jar"])
