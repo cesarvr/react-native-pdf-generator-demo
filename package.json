@@ -7,11 +7,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "fsevents": "^1.2.9",
     "react": "16.6.3",
     "react-native": "0.57.8",
     "react-native-pdf": "^5.0.11",
     "rn-fetch-blob": "^0.10.15",
-    "rn-pdf-generator": "^1.0.3"
+    "rn-pdf-generator": "^1.6.1"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
